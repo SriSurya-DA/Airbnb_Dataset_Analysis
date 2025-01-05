@@ -90,6 +90,8 @@ sns.histplot(data=data, x='price', bins=120)
 sns.histplot(data=df, x='availability_365', bins=30)
 ```
 
+![Availability](https://github.com/SriSurya-DA/Airbnb_Dataset_Analysis/blob/main/Availability_365.png)
+
 #### Group Analysis
 1. **Price by Neighborhood Group**
 ```python
@@ -115,6 +117,8 @@ sns.barplot(data=data, x='neighbourhood_group', y='price', hue='room_type')
 ```python
 sns.scatterplot(data=data, x='number_of_reviews', y='price', hue='neighbourhood_group')
 ```
+
+![locality Vs Price](https://github.com/SriSurya-DA/Airbnb_Dataset_Analysis/blob/main/locality%20Vs%20Review.png)
 - Explored the relationship between the number of reviews and price.
 
 #### Multivariate Analysis
@@ -122,6 +126,8 @@ sns.scatterplot(data=data, x='number_of_reviews', y='price', hue='neighbourhood_
 ```python
 sns.pairplot(data=data, vars=['price', 'number_of_reviews', 'availability_365', 'beds'], hue='room_type')
 ```
+![pairplot](https://github.com/SriSurya-DA/Airbnb_Dataset_Analysis/blob/main/pairplot.png)
+
 - Examined relationships among numerical columns.
 
 #### Geographical Distribution
