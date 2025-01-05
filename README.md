@@ -1,5 +1,7 @@
 # Airbnb_Dataset_Analysis
 
+![airbnb](https://github.com/SriSurya-DA/Airbnb_Dataset_Analysis/blob/main/Airbnb_logo.avif)
+
 ## Overview
 This project involves analyzing an Airbnb dataset to explore various data patterns, perform data cleaning, and extract meaningful insights. The following steps were undertaken:
 
